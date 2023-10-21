@@ -11,9 +11,9 @@ Nous disposons de deux réseaux :
 - 192.168.50.0/24
 - 192.168.51.0/24
 
-Si nous ne gérerions pas ce cas avec des VLAN ou des switchs non manageable, il nous faudrait un switch par réseau. Avec un switch manageable, nous allons créer un VLAN par réseau.
+Si nous ne gérerions pas ce cas avec des VLAN mais avec des switchs non manageable, il nous faudrait un switch par réseau. Avec un switch manageable, nous allons créer un VLAN par réseau. Ainsi nous pouvons regrouper nos équipements sur un seul switch.
 
-Pour créer un VLAN il faut se mettre en mode ``conf t`` et taper la commande suivant (où XX est le numéro du VLAN):
+Pour créer un VLAN il faut se mettre en mode `conf t` et taper la commande suivante (où XX est le numéro du VLAN):
 
 ```
 vlan XX
@@ -28,13 +28,13 @@ Une fois que l'on a créer notre VLAN nous pouvons lui donner un nom :
 name NOM_VLAN
 ```
 
-Pour obtenir la liste des VLANS (uniquement en mode ```enable```) :
+Pour obtenir la liste des VLANS (uniquement en mode `enable`) :
 
 ```
 show vlan
 ```
 
-Pour supprimer un VLAN rien de plus simple (en ```conf t```):
+Pour supprimer un VLAN rien de plus simple (en `conf t`):
 
 ```
 no vlan XX
@@ -42,7 +42,7 @@ no vlan XX
 
 Une fois que nous avons créer nos vlans, nous pouvons les attribuer aux ports du switch que nous souhaitons.
 
-Pour attribuer un VLAN (et uniquement un seul) à un port, se mettre en ```conf t``` puis sur le port souhaité (par exemple pour Gi1/0/24) :
+Pour attribuer un VLAN (et uniquement un seul) à un port, se mettre en `conf t` puis sur le port souhaité (par exemple pour Gi1/0/24) :
 ```
 conf t
 int Gi1/0/24 

@@ -10,3 +10,5 @@ Sachant que les switchs les plus connues et utilisés sont de la marque Cisco, n
 ### Structure du dossier
 
 1. Switchs
+2. Routeurs
+3. Pare-feu ASA

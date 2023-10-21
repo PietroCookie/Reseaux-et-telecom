@@ -12,3 +12,5 @@ Ecrit au fur et à mesure de ma carrière d'admin système et réseau, je regrou
 1. Cisco (switch et routeur)
 1. Telephonie IP
 1. Tiering (Model of Microsoft)
+1. Pare-feu
+1. Proxy
