@@ -38,6 +38,8 @@ Switch(config)#vtp password PASSWORD
 
 Après ces étapes, lorsque l'on configure un VLAN sur le serveur VTP, celui-ci est automatiquement créé sur les clients du domaine VTP.
 
+### Configuration d'un client VTP
+
 Pour configurer un client, on réaliser les mêmes étapes à part le `3.` que l'on modifier par cette ligne :
 ```
 Switch(config)#vtp mode client
