@@ -40,7 +40,7 @@ Après ces étapes, lorsque l'on configure un VLAN sur le serveur VTP, celui-ci 
 
 ### Configuration d'un client VTP
 
-Pour configurer un client, on réaliser les mêmes étapes à part le `3.` que l'on modifier par cette ligne :
+Pour configurer un client, on réaliser les mêmes étapes à part le `3.` que l'on modifie par cette ligne :
 ```
 Switch(config)#vtp mode client
 ```
